@@ -22,4 +22,4 @@ Disk_C_Free_GB=$([Math]::Round($disk.FreeSpace / 1GB, 2))
 Timestamp=$(Get-Date -Format "yyyy-MM-dd HH:mm:ss")
 "@
 
-$iniContent | Out-File -FilePath $filePath -Encoding utf8
+$iniContent
